@@ -1,6 +1,6 @@
 
 const mongoose = require('mongoose');
-// subscriber shcema created for subscriber data
+// subscriber shcema created for subscriber
 const susbcriberSchema = new mongoose.Schema({
     name: {
         type: String,
