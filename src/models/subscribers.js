@@ -1,5 +1,6 @@
-const mongoose = require('mongoose');
 
+const mongoose = require('mongoose');
+// subscriber shcema created for subscriber data
 const susbcriberSchema = new mongoose.Schema({
     name: {
         type: String,
