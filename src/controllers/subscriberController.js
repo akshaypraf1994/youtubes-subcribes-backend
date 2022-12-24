@@ -19,7 +19,7 @@ exports.getSubscriberById = async (req, res) => {
 
   if (!subscriber) {
     return res
-      .status(400)
+      .status(404)
       .json({ message: "No Subscriber found related to this ID!" });
   }
 
